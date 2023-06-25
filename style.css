@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.leftContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  font-size: 40px;
+  background-color: blueviolet;
+  color: white;
+  padding: 30px 20px;
+  min-width: 250px;
+}
+
+.leftItems {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.leftContainer h5 {
+  cursor: pointer;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.mainContainer {
+  display: flex;
+  min-height: 100vh;
+}
+
+.rightHomeContainer {
+  padding: 30px 30px;
+}
+
+.rightContactContainer {
+  display: none;
+  padding: 30px 30px;
+}
+
+.rightInfoContainer {
+  display: none;
+  padding: 30px 30px;
+}
+
+.rightGuideContainer {
+  display: none;
+  padding: 30px 30px;
+}
+
+#homespan {
+  background-color: white;
+  color: black;
+}
+
+.header {
+  display: none;
+  padding: 20px 20px;
+}
+
+.line {
+  background-color: black;
+  border-radius: 5px;
+  width: 30px;
+  height: 5px;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 20px;
+}
+
+.mobilenav {
+  background-color: blueviolet;
+  color: white;
+  padding: 20px 20px;
+  display: none;
+}
+
+.block {
+  display: block;
+}
+
+.none {
+  display: none;
+}
+@media screen and (max-width: 700px) {
+  .header {
+    display: block;
+  }
+
+  .mobilenav {
+    display: block;
+  }
+
+  .leftContainer {
+    display: none;
+  }
+
+  .rightHomeContainer {
+    padding: 30px 20px;
+  }
+
+  .rightContactContainer {
+    display: none;
+    padding: 30px 20px;
+  }
+
+  .rightInfoContainer {
+    display: none;
+    padding: 30px 20px;
+  }
+
+  .rightGuideContainer {
+    display: none;
+    padding: 30px 20px;
+  }
+}

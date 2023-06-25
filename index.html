@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job Freak Assignment</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js"></script>
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="navbar" onclick="handleNav()">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </div>
+    </div>
+    <div id="leftnav" class="none">
+      <div class="mobilenav">
+        <div class="leftItems">
+          <h5
+            onclick="handleRightHome()"
+            style="
+              font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+                'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            "
+          >
+            Home
+          </h5>
+          <h5
+            onclick="handleRightContact()"
+            style="
+              font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+                'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            "
+          >
+            Contact
+          </h5>
+          <h5
+            onclick="handleRightInfo()"
+            style="
+              font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+                'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            "
+          >
+            Info
+          </h5>
+          <h5
+            onclick="handleRightGuide()"
+            style="
+              font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+                'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            "
+          >
+            Guide
+          </h5>
+        </div>
+      </div>
+    </div>
+
+    <div class="mainContainer">
+      <div class="leftContainer">
+        <div onclick="handleRightHome()" style="cursor: pointer">
+          <h4
+            style="
+              font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+                'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            "
+          >
+            Job Freak
+          </h4>
+        </div>
+        <div class="leftItems">
+          <h5
+            onclick="handleRightHome()"
+            id="homespan"
+            style="
+              font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+                'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            "
+          >
+            Home
+          </h5>
+          <h5
+            onclick="handleRightContact()"
+            id="contactspan"
+            style="
+              font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+                'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            "
+          >
+            Contact
+          </h5>
+          <h5
+            onclick="handleRightInfo()"
+            id="infospan"
+            style="
+              font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+                'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            "
+          >
+            Info
+          </h5>
+          <h5
+            onclick="handleRightGuide()"
+            id="guidespan"
+            style="
+              font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+                'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            "
+          >
+            Guide
+          </h5>
+        </div>
+      </div>
+      <div class="rightHomeContainer" id="home">
+        <h1
+          style="
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+              'Lucida Sans', Arial, sans-serif;
+          "
+        >
+          Home
+        </h1>
+        <p
+          style="
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+              'Lucida Sans', Arial, sans-serif;
+            font-size: 40px;
+            color: blue;
+            margin-top: 20px;
+          "
+        >
+          Get Updates for Jobs and Internships openings from different companies
+        </p>
+      </div>
+      <div class="rightContactContainer" id="contact">
+        <h1
+          style="
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+              'Lucida Sans', Arial, sans-serif;
+          "
+        >
+          Contact
+        </h1>
+        <p
+          style="
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+              'Lucida Sans', Arial, sans-serif;
+            font-size: 40px;
+            color: blue;
+            margin-top: 20px;
+          "
+        >
+          please feel free to contact at our email shyam_25@jobfreak.in
+        </p>
+      </div>
+      <div class="rightInfoContainer" id="info">
+        <h1
+          style="
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+              'Lucida Sans', Arial, sans-serif;
+          "
+        >
+          Info
+        </h1>
+        <p
+          style="
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+              'Lucida Sans', Arial, sans-serif;
+            font-size: 40px;
+            color: blue;
+            margin-top: 20px;
+          "
+        >
+          At Job Freak We Post daily updates on internships and jobs postings !
+          ! Our aim is to empower the youth of our country and make them
+          Self-dependent. By providing them job/internships all kinds of
+          opportunities from various sectors, sharing knowledge and make them
+          competent enough so that they could excel in any field.
+        </p>
+      </div>
+      <div class="rightGuideContainer" id="guide">
+        <h1
+          style="
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+              'Lucida Sans', Arial, sans-serif;
+          "
+        >
+          Guide
+        </h1>
+        <p
+          style="
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+              'Lucida Sans', Arial, sans-serif;
+            font-size: 40px;
+            color: blue;
+            margin-top: 20px;
+          "
+        >
+          All Company names and brands are the Intellectual Property of their
+          respective owners. All company , product , and service names used in
+          this website are for identification purposes only. We are not
+          associated with any company/organization whose jobs posted on
+          jobfreak.in , We are just an information provider for jobs and
+          internships
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
